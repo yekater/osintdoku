@@ -98,8 +98,7 @@ function Footer() {
         </a>
       </div>
       <small>
-        Experiencia educativa · Sin registro · Progreso en este navegador ·
-        Creado por Ekaterina
+        Experiencia educativa · Sin registro · Progreso en este navegador
       </small>
     </footer>
   );
@@ -279,7 +278,6 @@ function Home() {
               <span>OBSERVA. CONECTA. DEDUCE.</span>
               <small>La respuesta está en las pruebas.</small>
             </div>
-            <div className={s.heroCredit}>EKATERINA</div>
           </div>
           <div className={s.sceneCaption}>
             ESCENA DRAMATIZADA · IMAGEN GENERADA
