@@ -1,0 +1,22 @@
+:root {
+  font-family: Manrope, Inter, "Segoe UI", Arial, sans-serif;
+  color: #f2f6fa;
+  background: #080f1b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --bg-primary: #080f1b;
+  --bg-secondary: #101b2c;
+  --surface: #162338;
+  --surface-hover: #1c3048;
+  --border: #314257;
+  --text-primary: #f2f6fa;
+  --text-secondary: #b5c2d0;
+  --accent-blue: #6b9af4;
+  --accent-cyan: #62d9d0;
+  --accent-amber: #e0b16a;
+  --success: #57c4a0;
+  --danger: #dd7785;
+  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
+  --radius: 4px;
+}

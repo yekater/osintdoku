@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button,
+a,
+input,
+select {
+  touch-action: manipulation;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+summary:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #62d9d0;
+  outline-offset: 5px;
+}
+button {
+  color: inherit;
+}
+::selection {
+  background: #e0b16a;
+  color: #080f1b;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+p {
+  line-height: 1.7;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.12;
+}
+h1,
+h2 {
+  letter-spacing: -0.045em;
+}
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+html {
+  scroll-behavior: smooth;
+}
+.skip-link {
+  position: fixed;
+  z-index: 999;
+  top: 8px;
+  left: 8px;
+  padding: 15px;
+  background: #e0b16a;
+  color: #080f1b;
+  transform: translateY(-160%);
+}
+.skip-link:focus {
+  transform: translateY(0);
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *:before,
+  *:after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
